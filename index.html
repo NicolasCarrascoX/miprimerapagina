@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/5d1e1d4e51.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <script src="script.js" async defer></script>
+</head>
+<body>
+    <div class="container">
+        <header id="encabezado">
+            <a href="index.html"><i class="fa-solid fa-code"></i></a>
+            <nav>
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li>Acerca de mi</li>
+                    <li>Trabajos</li>
+                    <li>Servicios</li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+        </header>
+        <main id="Seccion Principal">
+            <section class="Seccion1">
+                <div class="Acerca-de-mi">
+                    <h2 id="titulo">Acerca de mi</h2>
+                    <p class="parrafo1">Bienvenido a mi web, mi nombre es Nicolas Carrasco,
+                       tengo 25 años y soy Tester Jr y soy de Montevideo, 
+                       Uruguay.</p>
+                    <p>Me gusta el mundo de la programación y trato
+                       de aprender todo lo posible para ser un buen desarrollador
+                       en el futuro</p>
+                </div>
+                <img class="imagen1" src="img/Foto Nico Linkedin.jpg" alt="imagen-portada">
+                <div class="Acerca-Imagen"></div>
+            </section>
+            <section class="Seccion2">
+                <img src="img/carrusel 1.jpg" alt="">
+            </section>
+        </main>
+    </div>
+    <div class="cursos">
+        <div>
+            <p>Plan Ceibal</p>
+            <img class="planceibal" src="img/PLANCEIBAL-1024x536.jpg" alt="">
+            <p>lo aprendido y formacion</p>
+        </div>
+        <div>
+            <p>Codecademy</p>
+            <img class="codecademy" src="img/codecademy.webp" alt="">
+            <p>lo aprendido jaja</p>
+        </div>
+        <div>
+            <p>Coursera</p>
+            <img class="coursera" src="img/coursera.jpg" alt="">
+            <p>Metas y ambiciones futuras</p>
+        </div>
+    </div>
+    <form action="" method="get" class="formulario" id="form">
+        <div class="form-row">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="text" />
+        </div>
+        <p class="alerta" id="alerta"></p>
+        <div class="form-row">
+            <label for="email">Email</label>
+            <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="pepe@gmail.com"
+                required
+            />
+        </div>
+        <div class="form-row">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+        </div>
+        <div class="form-row">
+            <button>Enviar</button>
+        </div>  
+        <p class="alerta" id="alerta2"></p> <!-- Corregido el ID -->
+    </form>    
+    <footer>
+        <nav class="foot">
+            <a href="https://www.linkedin.com/in/nicolascarrascox/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/nicocarrascox/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.instagram.com/nicoocarrascox.ink/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=59892896639&text=Ingresa%20a%20mi%20chat"><i class="fa-brands fa-whatsapp"></i></a>
+        </nav>
+    </footer>
+</body>
+</html>
